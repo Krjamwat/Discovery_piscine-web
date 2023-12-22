@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background:rgba(210, 255, 151, 0.5);
+}
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+header img {
+    width: 80px;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+  padding: 15px 30px;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+nav ul li a:hover {
+    color: #ccc;
+}
+.container {
+    width: 86%;
+    margin: 0 auto;  
+}
+.banner img{
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    vertical-align: top;
+    height: 100%;
+}
+.text {
+    font-size: 150%;
+    font-family: monospace;
+    padding: 15%;
+}
+.information-section {
+    height: 100vh;
+    display: flex;
+    margin-bottom: 40%;
+}
+.contact-section {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+#ic {
+    color:black;
+    margin-top: 10px;
+    transition: transform 0.3s ease 0s , background-color 0.3s;
+}
+#ic:hover {
+    color:aqua;
+    transform: translateY(-8px);
+}
+#ic:active {
+    color:pink;
+}
+
+#contact {
+    border: 4px solid  black;
+    border-radius: 30px;
+}
+.BSPROOP {
+    align-items: center;
+    margin: 10%;
+}
+.motto {
+    font-size: 100%;
+    font-family: monospace;
+    text-align: center;
+}
+.BSPROOP img{
+    border-radius: 50%;
+    padding:40px;
+}
